@@ -178,6 +178,9 @@ font-family:serif;
    webkit-animation: swing 2s infinite ease;
     animation: swing 2s infinite ease; 
 }
+.item-3 li{
+    font-size: 20px;
+}
 /*第四页*/
 
 .item-4 p span{
@@ -190,65 +193,32 @@ text-align: left;
 border-right:1px solid green;
 }
 .item-4 .first img{
-    height:340px;
+    height:200px;
+    margin-top: 40px;
 }
-.item-4 img{
-    height:140px;
-}
+/*.item-4 img{
+    height:80px;
+}*/
 /*第五页*/
+.item-4 .point{
+    color: purple;
+}
+.item-4 a{
+  color: red;
+}
 .item-5{
     font-size: 15px;
-
-}
-
-.item-5 .top{
-    background: #e7ae26;
-    width: 100%;
-    height:50%;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    /*display: none;*/
-    -webkit-animation: open   1s ease forwards;
-    animation: open  1s ease forwards; 
-}
-
-
-.item-5  {
-    font-size: 20px;
+    background-color: rgba(255,255,1,0.4);
+   font-size: 20px;
     color: black;
+    padding-top: 200px;
+    webkit-animation: swing 2s  ease;
+    animation: swing 2s  ease; 
 }
-.item-5 .foot{
-    background: #e7ae26;
-    width: 100%;
-  height:30%;
-    position: absolute;
-    bottom: 0;
-    z-index: 10;
-    -webkit-animation: open 2.5s  ease  ;
-    animation: open  2.5s  ease; 
 }
 
-@keyframes open {
-    0% {
-        height:50%;
-    }
 
-    100% {
-        height: 30%;
-    }
-}
 
-@-webkit-keyframes open{
-    0% {
-        height:50%;
-    }
 
-    100% {
-        height: 30%;
-    }
-}
-.item-5 .open{
-    position: relative;
-    bottom: -200px;
-}
+
+
