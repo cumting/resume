@@ -1,0 +1,19 @@
+
+.section{
+    text-align: center;
+   
+    color: #fff;
+}   
+body{
+     font-family: 'youyuan',serif;
+}
+.item-1{
+    background: url("../images/bg1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.item-2,.item-3,.item-4   {
+    background: url("../images/bg2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
